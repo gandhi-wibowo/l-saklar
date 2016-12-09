@@ -5,7 +5,7 @@
 ESP8266WiFiMulti WiFiMulti;
 void setup() {
   Serial.begin(115200);
-  WiFiMulti.addAP("MR3020","gabolehdonlot");
+  WiFiMulti.addAP("SSID_NAME","SSID_PASSWORD");
   pinMode(16, OUTPUT); // D0
   pinMode(5, OUTPUT); // D1
   pinMode(4, OUTPUT);// D2
